@@ -1,10 +1,9 @@
+import { getMenu } from "./controller/menuController.js";
+import { getController } from "./controller/productController.js";
 import { hamburgerMenu } from "./view/showHamburgetMenu.js";
-import { showMenu } from "./view/showMenu.js"
-import { showProducts } from "./view/showProducts.js"
-
 function main() {
-    showMenu();
-    showProducts();
+    getMenu();
+    getController();
     hamburgerMenu();
 }
 main()
