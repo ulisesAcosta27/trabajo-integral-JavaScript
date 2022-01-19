@@ -101,6 +101,7 @@ img {
   cursor: pointer;
   display: none;
   padding: 0 0 1rem 0;
+  text-align: end;
 }
 
 @media (max-width: 768px) {
